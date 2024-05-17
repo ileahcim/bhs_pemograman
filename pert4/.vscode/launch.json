@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "//wsl.localhost/Ubuntu/root/perkuliahan/bhs_pemrograman/pert6",
-      "program": "//wsl.localhost/Ubuntu/root/perkuliahan/bhs_pemrograman/pert6/build/Debug/outDebug",
+      "cwd": "//wsl.localhost/Ubuntu/root/perkuliahan/bhs_pemrograman/pert4",
+      "program": "//wsl.localhost/Ubuntu/root/perkuliahan/bhs_pemrograman/pert4/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [

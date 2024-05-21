@@ -1,0 +1,17 @@
+@startuml
+start
+:Menu();
+:Menampilkan daftar menu;
+if (Pengguna memilih 1) then (yes)
+  :Memanggil fungsi tambah;
+else if (Pengguna memilih 2) then (yes)
+  :Memanggil fungsi kurang;
+else if (Pengguna memilih 3) then (yes)
+  :Memanggil fungsi kali;
+else if (Pengguna memilih 4) then (yes)
+  :Memanggil fungsi bagi;
+else (no)
+  :Menampilkan pesan kesalahan;
+endif
+stop
+@enduml

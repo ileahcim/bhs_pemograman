@@ -1,0 +1,42 @@
+@startuml Pert5
+start
+:Initialize Silahkan memilih menu;
+
+while (menu != '3') is (menu != 3) 
+    :Display Menu;
+    :Get User Input (menu);
+
+    if (menu == '1') then (case 1)
+        while (makanan != '3') is (makanan != 3)
+            :Display Food Menu;
+            :Get User Input (makanan);
+
+            if (makanan == '1') then (case 1)
+                :Get Input (qty);
+                :Calculate total for Pecel Lele;
+                :Display total price;
+            else if (makanan == '2') then (case 2)
+                :Get Input (qty);
+                :Calculate total for Nasi Goreng;
+                :Display total price;
+            else if (makanan == '3') then (case 3)
+                :Return to main menu;
+            else
+                :Display "Hanya pilih antara 1, 2, atau 3.";
+            endif
+        endwhile (makanan != 3)
+    else if (menu == '2') then (case 2)
+        :Get Input (qty);
+        :Calculate total for Es Teh Manis;
+        :Display total price;
+    else if (menu == '3') then (case 3)
+        :Display "Terima kasih sudah membeli, Silahkan datang kembali";
+        stop
+    else
+        :Display "Hanya pilih antara 1, 2, atau 3.";
+    endif
+endwhile (menu != 3)
+
+:Display "EXIT";
+stop
+@enduml

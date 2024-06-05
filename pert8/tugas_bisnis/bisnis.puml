@@ -1,0 +1,27 @@
+@startuml
+!define RECTANGLE class
+
+RECTANGLE Usaha_Mie_Ayam {
+  + Analisis Pasar
+  + Strategi Pemasaran
+  + Manajemen Operasional
+  + Pengelolaan Keuangan
+}
+
+RECTANGLE Analisis_SWOT {
+  + Kekuatan: Lokasi strategis, resep unik
+  + Kelemahan: Modal terbatas, persaingan ketat
+  + Peluang: Tren makanan sehat, kerjasama dengan aplikasi pengiriman
+  + Ancaman: Fluktuasi harga bahan baku, perubahan regulasi
+}
+
+RECTANGLE Strategi_Pertumbuhan {
+  + Ekspansi pasar
+  + Diversifikasi produk
+  + Franchise
+  + Digitalisasi bisnis
+}
+
+Usaha_Mie_Ayam --> Analisis_SWOT : Menganalisis
+Usaha_Mie_Ayam --> Strategi_Pertumbuhan : Mengimplementasikan
+@enduml

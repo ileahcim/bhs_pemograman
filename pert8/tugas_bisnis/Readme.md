@@ -1,7 +1,8 @@
-Dokumen Kebutuhan Bisnis: Usaha Mie Ayam
+Business Requirements Definition Usaha Mie Ayam
+
+
 1. Pendahuluan
 Usaha Mie Ayam adalah sebuah bisnis kuliner yang berfokus pada penyajian mie ayam dengan resep unik. Dokumen ini bertujuan untuk merinci kebutuhan bisnis dan strategi pengembangan.
-
 2. Analisis Pasar
 Lokasi strategis: Menentukan lokasi yang ramai dan mudah diakses oleh pelanggan.
 Tren makanan sehat: Memanfaatkan tren konsumsi makanan sehat untuk menarik pelanggan.
